@@ -74,7 +74,7 @@ class NavToggle extends React.Component {
                       name='location arrow'
                       size='large'
                     />
-                    <span className='location'>Location</span>
+                    <span className='location'>Visit Us</span>
                   </div>
                 </li>
               </a>

@@ -22,7 +22,11 @@ class About extends Component {
             We are a modern, social-based entertainment complex based in
             Mishawaka, Indiana. We offer food, games, amusement attractions,
             panoramic sports viewing screens and private event space designed
-            for high quality recreational experiences.
+            for high quality recreational experiences. Generations AdventurePlex
+            is located at:{' '}
+            <a style={{ fontSize: '1em', cusor: 'pointer' }}>
+              1018 W Edison Rd, next to Cinemark Movies 14.
+            </a>
           </p>
         </div>
         <div data-aos='fade-left' className='about-section mission'>
