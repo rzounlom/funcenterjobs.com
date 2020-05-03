@@ -1,0 +1,59 @@
+.drawer-body-menu {
+  a {
+    text-decoration: none;
+  }
+  .drawer-body-item {
+    height: 75px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+    font-weight: 700;
+    color: rgb(100, 100, 100);
+    transition: 0.3s ease-in-out;
+    &:hover {
+      color: black;
+    }
+
+    .menu-icon {
+      justify-self: flex-start;
+    }
+
+    .menu-item-conainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80px;
+
+      .jobs {
+        margin-right: 9px;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .menu-item-conainer {
+        font-size: 0.6em;
+        width: 65px;
+
+        .jobs {
+          margin-right: 8px;
+        }
+
+        .about {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+.rs-drawer {
+  width: 200px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .rs-drawer {
+    width: 140px !important;
+  }
+}

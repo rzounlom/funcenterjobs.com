@@ -1,0 +1,10 @@
+.HomePage {
+  max-width: 2000px;
+}
+
+@media screen and (min-width: 1024px) {
+  .HomePage {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}

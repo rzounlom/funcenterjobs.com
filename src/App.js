@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import './App.scss';
+import 'rsuite/dist/styles/rsuite-default.css';
+import Nav from './components/Nav/Nav';
+import HomePage from './components/pages/HomePage/HomePage';
+import JobsPage from './components/pages/JobsPage/JobsPage';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Nav />
+      <div className='a       +'>
+        <Switch>
+          <Route path='/jobs'>
+            <JobsPage className='App-page' />
+          </Route>
+          <Route path='/'>
+            <HomePage className='App-page' />
+          </Route>
+        </Switch>
+      </div>
     </div>
   );
 }
