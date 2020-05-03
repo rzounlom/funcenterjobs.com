@@ -60,13 +60,13 @@
 body
   > div.rs-drawer-wrapper
   > div.rs-drawer.rs-drawer-small.rs-drawer-right.slide-in.right.animated {
-  width: 250px !important;
+  width: 150px !important;
 }
 
 @media screen and (min-width: 768px) {
   body
     > div.rs-drawer-wrapper
     > div.rs-drawer.rs-drawer-small.rs-drawer-right.slide-in.right.animated {
-    width: 300px !important;
+    width: 180px !important;
   }
 }
