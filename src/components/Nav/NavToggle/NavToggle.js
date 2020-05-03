@@ -51,7 +51,7 @@ class NavToggle extends React.Component {
                 </li>
               </Link>
               <a
-                href='mailto:rzounlom@gmail.com'
+                href='mailto:tcruthi1@gmail.com'
                 target='_blank'
                 rel='noopener noreferrer'
               >
