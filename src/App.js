@@ -5,7 +5,7 @@ import 'rsuite/dist/styles/rsuite-default.css';
 import Nav from './components/Nav/Nav';
 import HomePage from './components/pages/HomePage/HomePage';
 import JobsPage from './components/pages/JobsPage/JobsPage';
-
+import Footer from './components/pages/HomePage/Footer/Footer';
 
 const App = () => {
   return (
@@ -21,8 +21,9 @@ const App = () => {
           </Route>
         </Switch>
       </div>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
