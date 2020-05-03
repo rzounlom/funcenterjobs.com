@@ -1,12 +1,19 @@
 .drawer-body-menu {
+  padding: 0;
+  margin: 0;
   a {
     text-decoration: none;
   }
-  .drawer-body-item {
-    height: 75px;
-    border-bottom: 1px solid lightgrey;
-    text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
+  .drawer-body-item {
+    height: 70px;
+    border-bottom: 1px solid lightgrey;
+    min-width: 100px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +33,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 80px;
+      max-width: 90px;
+      margin-right: 18px;
 
       .jobs {
         margin-right: 9px;
@@ -35,7 +43,7 @@
     @media screen and (max-width: 600px) {
       .menu-item-conainer {
         font-size: 0.6em;
-        width: 65px;
+        width: 60px;
 
         .jobs {
           margin-right: 8px;
@@ -48,12 +56,17 @@
     }
   }
 }
-.rs-drawer {
-  width: 200px !important;
+
+body
+  > div.rs-drawer-wrapper
+  > div.rs-drawer.rs-drawer-small.rs-drawer-right.slide-in.right.animated {
+  width: 250px !important;
 }
 
-@media screen and (max-width: 600px) {
-  .rs-drawer {
-    width: 140px !important;
+@media screen and (min-width: 768px) {
+  body
+    > div.rs-drawer-wrapper
+    > div.rs-drawer.rs-drawer-small.rs-drawer-right.slide-in.right.animated {
+    width: 300px !important;
   }
 }
