@@ -155,7 +155,7 @@ class Job1Modal extends Component {
               onClick={() => this.close()}
             >
               <Button color='blue'>
-                <Icon name='mail' /> Email Resume
+                <Icon name='mail' /> Apply Now
               </Button>
             </a>
           </Modal.Actions>
