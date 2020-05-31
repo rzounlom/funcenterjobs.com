@@ -27,15 +27,15 @@ class Job4Modal extends Component {
                     <ul>
                       <li>
                         Oversee all aspects of restaurant operation under the
-                        direction of the General Manager
+                        direction of the General Manager.
                       </li>
                       <li>
                         Ensure a desirable food and beverage experience for
-                        customers by managing kitchen staff and servers,
-                        beverage operations, food safety, and quality
+                        guest by managing kitchen staff and servers, beverage
+                        operations, food safety, and quality.
                       </li>
                       <li>
-                        Participate in general facility management as needed
+                        Participate in general facility management, as needed.
                       </li>
                     </ul>
                   </div>
@@ -44,30 +44,32 @@ class Job4Modal extends Component {
                   <div className='job-item-title'>General Description:</div>
                   <div className='job-item-content'>
                     <ul>
-                      <li>Keep Kitchen in good working order</li>
+                      <li>Keeping kitchen in good working order.</li>
                       <li>
-                        Ensure food quality, taste, and appearance are
-                        consistent and desirable
+                        Ensuring food quality, taste and appearance are
+                        consistent and desirable.
                       </li>
-                      <li>Host group events as needed (training provided)</li>
+                      <li>
+                        Hosting group events as needed (training provided).
+                      </li>
                       <li>
                         Assist in recruiting and training promotable food and
-                        beverage team members
+                        beverage team members.
                       </li>
                       <li>
                         Complete administrative duties in managing inventory
                         levels, staffing numbers, kitchen maintenance, and
-                        operations
+                        operations.
                       </li>
                       <li>
-                        Oversee catering services for large groups and events
+                        Oversee catering services for large groups and events.
                       </li>
-                      <li>Serve on Event Management Team</li>
+                      <li>Serve on Event Management Team.</li>
                       <li>
                         Assist in daily operation of overall facility as part of
-                        the senior management team
+                        the senior management team.
                       </li>
-                      <li>Be a good coach and be coachable</li>
+                      <li>Be a good coach and be coachable.</li>
                     </ul>
                   </div>
                 </div>
@@ -75,56 +77,63 @@ class Job4Modal extends Component {
                   <div className='job-item-title'>Minimum Requirements:</div>
                   <div className='job-item-content'>
                     <ul>
+                      <li>Keeping kitchen in good working order.</li>
+                      <li>Be a good coach and be coachable.</li>
                       <li>
-                        2-3 years of experience or training in the food service
-                        industry
+                        Willingness to cross-train in kitchen and attraction
+                        areas.
                       </li>
+                      <li>Strong leadership and communication skills.</li>
+                      <li>Ability to multitask.</li>
+                      <li>Strong work ethic and a “go-getter” attitude.</li>
+                      <li>Exceptional time management skills.</li>
                       <li>
-                        Strong communication skills, ability to multitask,
-                        leadership abilities, computer literacy
+                        Ability to stand or move about for long periods of time
+                        and lift at least 30 pounds.
                       </li>
-                      <li>Strong work ethic and a “go-getter” attitude</li>
+                      <li>Must have reliable transportation to work.</li>
+                      <li>
+                        Willingness to comply with all food safety procedures.
+                      </li>
                       <li>
                         Ability to travel for training and professional
-                        development
+                        development.
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div className='job-item'>
-                  <div className='job-item-title'>Important Note:</div>
+                  <div className='job-item-title'>Note:</div>
                   <div className='job-item-content'>
                     <ul style={{ listStyle: 'none' }}>
+                      <li>
+                        While performing position duties, the team member will
+                        be regularly required to: work days, nights, and/or
+                        weekends; work in a noisy, fast-paced environment with
+                        distracting conditions; move about the facility and
+                        stand for long-periods of time; and lift and carry up to
+                        35 lbs.
+                      </li>{' '}
+                      <br />
                       <li>
                         The physical demands described here are representative
                         of those that must be met by a team member to
                         successfully perform the essential functions of this
                         job. Reasonable accommodations may be made to enable
                         individuals with disabilities to perform essential job
-                        functions. While performing the duties of this position,
-                        the team member will regularly be required to:
-                        <ul className='inner-ul'>
-                          <li>Work days, nights, and/or weekends</li>
-                          <li>
-                            Work in a noisy, fast-paced environment with
-                            distracting conditions
-                          </li>
-                          <li>
-                            Move about the facility and stand for long periods
-                            of time
-                          </li>
-                          <li>Read and write handwritten notes</li>
-                          <li>Lift and carry up to 30 LBS</li>
-                        </ul>
+                        functions.
                       </li>
                     </ul>
+                  </div>
+                  <div className='job-item-title'>EOE Statement:</div>
+                  <div className='job-item-content'>
                     <ul style={{ listStyle: 'none' }}>
                       <li>
-                        The above statements are intended to describe the
-                        general nature and level of work being performed by
-                        individuals assigned to this job. They are not intended
-                        to be an exhaustive list of all responsibilities,
-                        duties, and skills.
+                        We are an equal employment opportunity employer. All
+                        qualified applicants will receive consideration for
+                        employment without regard to race, color, religion, sex,
+                        national origin, disability status, protected veteran
+                        status or any other characteristic protected by law.
                       </li>
                     </ul>
                   </div>
@@ -137,13 +146,13 @@ class Job4Modal extends Component {
               <Icon name='close' /> Close
             </Button>
             <a
-              href='mailto:rzounlom@gmail.com'
+              href='https://recruiting.myapps.paychex.com/appone/MainInfoReq.asp?R_ID=3003200'
               target='_blank'
               rel='noopener noreferrer'
               onClick={() => this.close()}
             >
-              <Button color='blue'>
-                <Icon name='mail' /> Email Resume
+              <Button color='green'>
+                <Icon name='checkmark' /> Apply Now
               </Button>
             </a>
           </Modal.Actions>

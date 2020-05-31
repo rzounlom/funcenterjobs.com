@@ -17,7 +17,7 @@ class Job3Modal extends Component {
         </button>
 
         <Modal dimmer={dimmer} open={open} onClose={this.close}>
-          <Modal.Header>Group and Corporate Sales Manager</Modal.Header>
+          <Modal.Header>Sales & Event Manager </Modal.Header>
           <Modal.Content scrolling>
             <Modal.Description>
               <div className='job-description'>
@@ -26,7 +26,7 @@ class Job3Modal extends Component {
                   <div className='job-item-content'>
                     <ul>
                       <li>
-                        Engage with prospective clients to book group events,
+                        Engage with propective clients to book group events,
                         including company parties, team building, youth, church,
                         and school groups.
                       </li>
@@ -41,18 +41,18 @@ class Job3Modal extends Component {
                         Become a product expert on fundraising events, corporate
                         events/team-building, birthday parties, adult parties,
                         field trips, charity events, and other events that will
-                        attract groups
+                        attract groups.
                       </li>
                       <li>
                         Attend local business and other community events to
-                        promote the center
+                        promote the center.
                       </li>
                       <li>Host group events as needed (training provided)</li>
                       <li>
                         Book group events, ensuring guest satisfaction and
-                        revenue goals are met or exceeded
+                        revenue goals are met or exceeded.
                       </li>
-                      <li>Assist in the development of our sales team</li>
+                      <li>Assist in development of our sales team.</li>
                     </ul>
                   </div>
                 </div>
@@ -60,61 +60,63 @@ class Job3Modal extends Component {
                   <div className='job-item-title'>Minimum Requirements:</div>
                   <div className='job-item-content'>
                     <ul>
-                      <li>Exceptional communication and presentation skills</li>
                       <li>
-                        Ability to identity leads and cold call on prospective
-                        guests
+                        1-2 years of outsides sales training or sales experience
+                        in any industry.
                       </li>
                       <li>
-                        1-2 years of outside sales training or sales experience
-                        in any industry
+                        Exceptional communication and presentation skills.
+                      </li>
+                      <li>
+                        Ability to identify leads and cold call on prospective
+                        guests.
                       </li>
                       <li>
                         Ability to travel for training and professional
-                        development
+                        development.
                       </li>
-                      <li>Reliable transportation and a good driving record</li>
+                      <li>
+                        Reliable transportations and a good driving record.
+                      </li>
                       <li>
                         Ability to participate in events on evenings and
-                        weekends
+                        weekends.
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div className='job-item'>
-                  <div className='job-item-title'>Important Note:</div>
+                  <div className='job-item-title'>Note:</div>
                   <div className='job-item-content'>
                     <ul style={{ listStyle: 'none' }}>
+                      <li>
+                        While performing position duties, the team member will
+                        be regularly required to: work days, nights, and/or
+                        weekends; work in a noisy, fast-paced environment with
+                        distracting conditions; move about the facility and
+                        stand for long-periods of time; and lift and carry up to
+                        35 lbs.
+                      </li>{' '}
+                      <br />
                       <li>
                         The physical demands described here are representative
                         of those that must be met by a team member to
                         successfully perform the essential functions of this
                         job. Reasonable accommodations may be made to enable
                         individuals with disabilities to perform essential job
-                        functions. While performing the duties of this position,
-                        the team member will regularly be required to:
-                        <ul className='inner-ul'>
-                          <li>Work days, nights, and/or weekends</li>
-                          <li>
-                            Work in a noisy, fast-paced environment with
-                            distracting conditions
-                          </li>
-                          <li>
-                            Move about the facility and stand for long periods
-                            of time
-                          </li>
-                          <li>Read and write handwritten notes</li>
-                          <li>Lift and carry up to 30 LBS</li>
-                        </ul>
+                        functions.
                       </li>
                     </ul>
+                  </div>
+                  <div className='job-item-title'>EOE Statement:</div>
+                  <div className='job-item-content'>
                     <ul style={{ listStyle: 'none' }}>
                       <li>
-                        The above statements are intended to describe the
-                        general nature and level of work being performed by
-                        individuals assigned to this job. They are not intended
-                        to be an exhaustive list of all responsibilities,
-                        duties, and skills.
+                        We are an equal employment opportunity employer. All
+                        qualified applicants will receive consideration for
+                        employment without regard to race, color, religion, sex,
+                        national origin, disability status, protected veteran
+                        status or any other characteristic protected by law.
                       </li>
                     </ul>
                   </div>
@@ -127,13 +129,13 @@ class Job3Modal extends Component {
               <Icon name='close' /> Close
             </Button>
             <a
-              href='mailto:rzounlom@gmail.com'
+              href='https://recruiting.myapps.paychex.com/appone/MainInfoReq.asp?R_ID=3005191'
               target='_blank'
               rel='noopener noreferrer'
               onClick={() => this.close()}
             >
-              <Button color='blue'>
-                <Icon name='mail' /> Email Resume
+              <Button color='green'>
+                <Icon name='checkmark' /> Apply Now
               </Button>
             </a>
           </Modal.Actions>

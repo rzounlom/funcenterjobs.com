@@ -27,51 +27,34 @@ class Job1Modal extends Component {
                   <div className='job-item-content'>
                     <ul>
                       <li>
-                        Be a leader that people enjoy working with and oversee
-                        day to day operations
+                        Assist the Chief Operating Officer in coordinating,
+                        directing and planning everyday business operations.
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div className='job-item'>
-                  <div className='job-item-title'>
-                    Protect our most valuable assets:
-                  </div>
+                  <div className='job-item-title'>General Description:</div>
                   <div className='job-item-content'>
                     <ul>
                       <li>
-                        People, People, People!!!:
-                        <ul className='inner-ul'>
-                          <li>People are our most valuable assets</li>
-                          <li>Maintain a fun and healthy work culture</li>
-                          <li>Recruit, train and retain talent</li>
-                          <li>
-                            Inspire growth and create avenues for professional
-                            development
-                          </li>
-                          <li>Provide exceptional service to our guests</li>
-                        </ul>
+                        Ensure guests have a positive and memorable experience.
                       </li>
                       <li>
-                        Facility and Attractions:
-                        <ul className='inner-ul'>
-                          <li>
-                            Manage our facility with attention to appearance,
-                            safety and function
-                          </li>
-                        </ul>
+                        Develop training and train workers in proper operational
+                        procedures and functions and explain company policies.
                       </li>
                       <li>
-                        Revenue:
-                        <ul className='inner-ul'>
-                          <li>
-                            Maintain fiscal responsibility and implement sales &
-                            marketing strategies to drive profitability and
-                            create a sustainable revenue stream we can use to
-                            reinvest in people, attractions, and the community
-                          </li>
-                        </ul>
+                        Ensure shifts run smoothly and manage daily operations.
                       </li>
+                      <li>
+                        Help create work schedules to ensure quality and timely
+                        delivery of service and compliance with labor laws.
+                      </li>
+                      <li>
+                        Assist on the front and back lines when necessary.
+                      </li>
+                      <li>Recruit and hire staff members.</li>
                     </ul>
                   </div>
                 </div>
@@ -80,63 +63,53 @@ class Job1Modal extends Component {
                   <div className='job-item-content'>
                     <ul>
                       <li>
-                        Minimum of 3 years of experience in teaching, coaching,
-                        mentoring, training, or supervising
+                        3 years of experience in teaching, coaching, mentoring,
+                        training, or supervising.
                       </li>
-                      <li>Strong organizational and leadership abilities</li>
+                      <li>Strong organizational and leadership ability</li>
+                      <li>Fast learner and coachable.</li>
+                      <li>Strong communication and interpersonal skills.</li>
                       <li>
-                        Fast learner and coachable, with desirable interpersonal
-                        skills
+                        Ability to stand or walk for long periods of time and
+                        lift at least 35 pounds.
                       </li>
-                      <li>Flexibility to work days, evenings, and weekends</li>
-                      <li>
-                        Ability to travel within the U.S. for training,
-                        meetings, and conferences
-                      </li>
+                      <li>Must have reliable transportation to work.</li>
+                      <li>Flexibility to work days, evenings, and weekends.</li>
                     </ul>
                   </div>
                 </div>
                 <div className='job-item'>
-                  <div className='job-item-title'>Important Note:</div>
+                  <div className='job-item-title'>Note:</div>
                   <div className='job-item-content'>
                     <ul style={{ listStyle: 'none' }}>
+                      <li>
+                        While performing position duties, the team member will
+                        be regularly required to: work days, nights, and/or
+                        weekends; work in a noisy, fast-paced environment with
+                        distracting conditions; move about the facility and
+                        stand for long-periods of time; and lift and carry up to
+                        35 lbs.
+                      </li>{' '}
+                      <br />
                       <li>
                         The physical demands described here are representative
                         of those that must be met by a team member to
                         successfully perform the essential functions of this
                         job. Reasonable accommodations may be made to enable
                         individuals with disabilities to perform essential job
-                        functions. While performing the duties of this position,
-                        the team member will regularly be required to:
-                        <ul className='inner-ul'>
-                          <li>
-                            Minimum of 3 years of experience in teaching,
-                            coaching, mentoring, training, or supervising
-                          </li>
-                          <li>
-                            Strong organizational and leadership abilities
-                          </li>
-                          <li>
-                            Fast learner and coachable, with desirable
-                            interpersonal skills
-                          </li>
-                          <li>
-                            Flexibility to work days, evenings, and weekends
-                          </li>
-                          <li>
-                            Ability to travel within the U.S. for training,
-                            meetings, and conferences
-                          </li>
-                        </ul>
+                        functions.
                       </li>
                     </ul>
+                  </div>
+                  <div className='job-item-title'>EOE Statement:</div>
+                  <div className='job-item-content'>
                     <ul style={{ listStyle: 'none' }}>
                       <li>
-                        The above statements are intended to describe the
-                        general nature and level of work being performed by
-                        individuals assigned to this job. They are not intended
-                        to be an exhaustive list of all responsibilities,
-                        duties, and skills.
+                        We are an equal employment opportunity employer. All
+                        qualified applicants will receive consideration for
+                        employment without regard to race, color, religion, sex,
+                        national origin, disability status, protected veteran
+                        status or any other characteristic protected by law.
                       </li>
                     </ul>
                   </div>
@@ -149,13 +122,13 @@ class Job1Modal extends Component {
               <Icon name='close' /> Close
             </Button>
             <a
-              href='mailto:rzounlom@gmail.com'
+              href='https://recruiting.myapps.paychex.com/appone/MainInfoReq.asp?R_ID=3005114'
               target='_blank'
               rel='noopener noreferrer'
               onClick={() => this.close()}
             >
-              <Button color='blue'>
-                <Icon name='mail' /> Apply Now
+              <Button color='green'>
+                <Icon name='checkmark' /> Apply Now
               </Button>
             </a>
           </Modal.Actions>
