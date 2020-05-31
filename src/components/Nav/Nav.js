@@ -24,7 +24,7 @@ const Nav = () => {
             Jobs
           </Link>
           <a
-            href='mailto:tcruthi1@gmail.com'
+            href='mailto:JackV@generations-adventureplex.com'
             target='_blank'
             rel='noopener noreferrer'
             className='nav-menu-item'
