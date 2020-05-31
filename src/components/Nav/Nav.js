@@ -23,14 +23,9 @@ const Nav = () => {
           <Link to='/jobs' className='nav-menu-item'>
             Jobs
           </Link>
-          <a
-            href='mailto:JackV@generations-adventureplex.com'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='nav-menu-item'
-          >
+          <Link to='/contact' className='nav-menu-item'>
             Contact
-          </a>
+          </Link>
         </ul>
       </div>
     </div>

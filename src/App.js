@@ -5,6 +5,7 @@ import 'rsuite/dist/styles/rsuite-default.css';
 import Nav from './components/Nav/Nav';
 import HomePage from './components/pages/HomePage/HomePage';
 import JobsPage from './components/pages/JobsPage/JobsPage';
+import ContactPage from './components/pages/ContctPage/ContactPage';
 import Footer from './components/pages/HomePage/Footer/Footer';
 
 const App = () => {
@@ -13,6 +14,9 @@ const App = () => {
       <Nav />
       <div className='a       +'>
         <Switch>
+          <Route exact path='/contact'>
+            <ContactPage className='App-page' />
+          </Route>
           <Route path='/jobs'>
             <JobsPage className='App-page' />
           </Route>

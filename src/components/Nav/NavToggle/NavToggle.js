@@ -50,18 +50,14 @@ class NavToggle extends React.Component {
                   </div>
                 </li>
               </Link>
-              <a
-                href='mailto:JackV@generations-adventureplex.com'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
+              <Link to='/contact'>
                 <li className='drawer-body-item'>
                   <div className='menu-item-conainer'>
                     <Icon className='menu-icon' name='mail' size='large' />
                     <span className='contact'>Contact</span>
                   </div>
                 </li>
-              </a>
+              </Link>
             </ul>
           </Drawer.Body>
         </Drawer>

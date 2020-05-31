@@ -8,4 +8,9 @@
   align-items: center;
   justify-content: center;
   color: rgb(53, 133, 238);
+
+  @media screen and(max-width:350px) {
+    padding: 0 1% !important;
+    font-size: 0.9em;
+  }
 }
