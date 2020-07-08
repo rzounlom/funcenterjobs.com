@@ -16,6 +16,18 @@
     align-items: center;
     margin-top: 5%;
 
+    span {
+      width: 100%;
+    }
+    span.job-fair {
+      font-size: 1em;
+      width: 100%;
+
+      a {
+        font-size: 1em;
+        font-weight: bolder;
+      }
+    }
     .jobs-container {
       margin-top: 2%;
       width: 100%;
