@@ -33,10 +33,11 @@ class Jobs extends Component {
               <a
                 href='https://recruiting.myapps.paychex.com/appone/MainInfoReq.asp?R_ID=3063571'
                 target='_blank'
+                rel='noopener noreferrer'
               >
                 2020 Job Fair{' '}
               </a>
-              this Friday July 9th from 10AM-5PM at 711 West McKinley Ave,
+              this Saturdat July 18th from 10AM-5PM at 711 West McKinley Ave,
               Mishawaka, IN 46545
             </span>
           </div>
