@@ -30,15 +30,8 @@ class Jobs extends Component {
           <div className='about-heading'>
             CURRENTLY RECRUITING: <br />
             <span className='job-fair'>
-              <a
-                href='https://recruiting.myapps.paychex.com/appone/MainInfoReq.asp?R_ID=3063571'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                2020 Job Fair{' '}
-              </a>
-              this Saturdat July 18th from 10AM-5PM at 711 West McKinley Ave,
-              Mishawaka, IN 46545
+              2020 Job Fair this Saturdat July 18th from 10AM-5PM at 711 West
+              McKinley Ave, Mishawaka, IN 46545
             </span>
           </div>
           <div data-aos='fade-left' className='jobs-container'>
