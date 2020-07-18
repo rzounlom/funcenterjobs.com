@@ -1,9 +1,13 @@
 import React from 'react';
 import './Footer.scss';
+import { Icon } from 'semantic-ui-react';
 
 const Footer = () => {
   return (
-    <div className='Footer'>Site Powered By 2020 First Shift Media, LLC</div>
+    <div className='Footer'>
+      <Icon name='copyright outline' /> 2020 First Shift Media, LLC All Rights
+      Reserved
+    </div>
   );
 };
 

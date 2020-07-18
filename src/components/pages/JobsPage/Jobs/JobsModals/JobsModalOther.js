@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Button, Modal, Icon } from 'semantic-ui-react';
 import './JobsModal.scss';
 
-class Job1Modal extends Component {
+class Job1ModalOther extends Component {
   state = { open: false };
 
   show = (dimmer) => () => this.setState({ dimmer, open: true });
@@ -18,7 +18,7 @@ class Job1Modal extends Component {
         </button>
 
         <Modal dimmer={dimmer} open={open} onClose={this.close}>
-          <Modal.Header>Assistant General Manager</Modal.Header>
+          <Modal.Header>Guest Services Manager</Modal.Header>
           <Modal.Content scrolling>
             <Modal.Description>
               <div className='job-description'>
@@ -138,4 +138,4 @@ class Job1Modal extends Component {
   }
 }
 
-export default Job1Modal;
+export default Job1ModalOther;
