@@ -62,8 +62,7 @@ class Jobs extends Component {
                 <Job4Modal />
               </div>
             </div>
-          </div>
-          <div data-aos='fade-right' className='jobs-container'>
+
             <div className='jobs-item jobs-item-5'>
               <div className='job-info'>
                 <div className='job-info-heading'>Team Members</div>
@@ -72,7 +71,7 @@ class Jobs extends Component {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button color='green'>
+                  <Button color='blue'>
                     <Icon name='checkmark' /> Apply Now
                   </Button>
                 </a>
@@ -88,7 +87,7 @@ class Jobs extends Component {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button color='green'>
+                  <Button color='blue'>
                     <Icon name='checkmark' /> Apply Now
                   </Button>
                 </a>
@@ -102,7 +101,7 @@ class Jobs extends Component {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button color='green'>
+                  <Button color='blue'>
                     <Icon name='checkmark' /> Apply Now
                   </Button>
                 </a>
@@ -116,7 +115,7 @@ class Jobs extends Component {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button color='green'>
+                  <Button color='blue'>
                     <Icon name='checkmark' /> Apply Now
                   </Button>
                 </a>
@@ -130,7 +129,7 @@ class Jobs extends Component {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button color='green'>
+                  <Button color='blue'>
                     <Icon name='checkmark' /> Apply Now
                   </Button>
                 </a>
@@ -146,7 +145,7 @@ class Jobs extends Component {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button color='green'>
+                  <Button color='blue'>
                     <Icon name='checkmark' /> Apply Now
                   </Button>
                 </a>
@@ -162,7 +161,7 @@ class Jobs extends Component {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button color='green'>
+                  <Button color='blue'>
                     <Icon name='checkmark' /> Apply Now
                   </Button>
                 </a>
@@ -178,7 +177,7 @@ class Jobs extends Component {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  <Button color='green'>
+                  <Button color='blue'>
                     <Icon name='checkmark' /> Apply Now
                   </Button>
                 </a>

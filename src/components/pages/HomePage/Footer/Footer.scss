@@ -8,8 +8,13 @@
   align-items: center;
   justify-content: center;
   color: rgb(53, 133, 238);
+  font-size: 1rem;
 
   i {
     margin-bottom: 7px;
+  }
+
+  @media screen and (max-width: 350px) {
+    font-size: 0.8rem;
   }
 }
