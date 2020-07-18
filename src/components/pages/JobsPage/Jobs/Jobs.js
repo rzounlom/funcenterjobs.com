@@ -30,7 +30,7 @@ class Jobs extends Component {
           <div className='about-heading'>
             CURRENTLY RECRUITING: <br />
             <span className='job-fair'>
-              2020 Job Fair this Saturdat July 18th from 10AM-5PM at 711 West
+              2020 Job Fair this Saturday July 18th from 10AM-5PM at 711 West
               McKinley Ave, Mishawaka, IN 46545
             </span>
           </div>
