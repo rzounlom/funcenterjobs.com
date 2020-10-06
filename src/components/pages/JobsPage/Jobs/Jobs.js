@@ -32,7 +32,7 @@ class Jobs extends Component {
             CURRENTLY RECRUITING: <br />
           </div>
           <div data-aos='fade-left' className='jobs-container'>
-            <div className='jobs-item jobs-item-1'>
+            {/* <div className='jobs-item jobs-item-1'>
               <div className='job-info'>
                 <div className='job-info-heading'>
                   Assistant General Manager
@@ -57,7 +57,7 @@ class Jobs extends Component {
                 <div className='job-info-heading'>Executive Chef</div>
                 <Job4Modal />
               </div>
-            </div>
+            </div> */}
 
             <div className='jobs-item jobs-item-5'>
               <div className='job-info'>

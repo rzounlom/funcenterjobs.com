@@ -1,8 +1,8 @@
+@import '~video-react/styles/scss/video-react';
 .Landing {
   height: 91.1vh;
   width: 100%;
-  background-color: lightgray;
-  background: url(../../../../landing_new.jpeg);
+  background-color: rgba(0, 0, 0, 0);
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -62,7 +62,10 @@
 @media screen and (max-width: 768px) {
   .Landing {
     height: 50vh;
-
+    padding: 1%;
+    .landing-video-player {
+      margin-top: -5%;
+    }
     .landing-btn-container {
       .landing-btn {
         font-size: 0.6em;
@@ -86,6 +89,10 @@
 @media screen and (max-width: 500px) {
   .Landing {
     height: 50vh;
+    .landing-video-player {
+      margin-top: -9%;
+      height: 280px;
+    }
 
     .landing-btn-container {
       .landing-btn {
@@ -106,6 +113,26 @@
           width: 60%;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .Landing {
+    height: 45vh;
+    .landing-video-player {
+      margin-top: -10px;
+      height: 280px;
+    }
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .Landing {
+    height: 55vh;
+    .landing-video-player {
+      margin-top: -12px;
+      height: 280px;
     }
   }
 }
