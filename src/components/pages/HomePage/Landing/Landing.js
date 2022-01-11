@@ -23,25 +23,39 @@ class Landing extends Component {
     return (
       <div data-aos="fade-down" className="Landing">
         <div className="landing-header">
-          <div className="logo-continer">
+          <a
+            className="logo-continer"
+            href="https://generations-adventureplex.com/"
+          >
             <img src={logo} alt="logo" />
-          </div>
+          </a>
           <div className="social-continer">
-            <div className="icon-container">
+            <a
+              className="icon-container"
+              href="https://www.facebook.com/GenerationsAdventurePlex"
+            >
               <BsFacebook color="white" />
-            </div>
-            <div className="icon-container">
+            </a>
+            <a
+              className="icon-container"
+              href="https://twitter.com/gadventureplex"
+            >
               <BsTwitter color="white" />
-            </div>
-            <div className="icon-container">
+            </a>
+            <a
+              className="icon-container"
+              href="https://www.instagram.com/generations_adventureplex/"
+            >
               <BsInstagram color="white" />
-            </div>
+            </a>
           </div>
         </div>
         <div className="landing-body">
           <div className="heading-container">
             <div className="heading">Become a member of a winning team</div>
-            <button>Learn More</button>
+            <a href="https://generations-adventureplex.com/jobs/">
+              <button>Learn More</button>
+            </a>
           </div>
         </div>
       </div>
