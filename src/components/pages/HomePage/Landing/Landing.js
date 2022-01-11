@@ -1,5 +1,6 @@
 import "./Landing.scss";
 
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 import React, { Component } from "react";
 
 import AOS from "aos";
@@ -25,7 +26,17 @@ class Landing extends Component {
           <div className="logo-continer">
             <img src={logo} alt="logo" />
           </div>
-          <div className="social-continer">Social Container</div>
+          <div className="social-continer">
+            <div className="icon-container">
+              <BsFacebook />
+            </div>
+            <div className="icon-container">
+              <BsTwitter />
+            </div>
+            <div className="icon-container">
+              <BsInstagram />
+            </div>
+          </div>
         </div>
         <div className="landing-body">
           <button>Learn More</button>
