@@ -28,18 +28,21 @@ class Landing extends Component {
           </div>
           <div className="social-continer">
             <div className="icon-container">
-              <BsFacebook />
+              <BsFacebook color="white" />
             </div>
             <div className="icon-container">
-              <BsTwitter />
+              <BsTwitter color="white" />
             </div>
             <div className="icon-container">
-              <BsInstagram />
+              <BsInstagram color="white" />
             </div>
           </div>
         </div>
         <div className="landing-body">
-          <button>Learn More</button>
+          <div className="heading-container">
+            <div className="heading">Become a member of a winning team</div>
+            <button>Learn More</button>
+          </div>
         </div>
       </div>
     );

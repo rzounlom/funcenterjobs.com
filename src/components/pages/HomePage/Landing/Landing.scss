@@ -1,4 +1,6 @@
 .Landing {
+  background-color: #262626;
+  font-family: "Times New Roman", Times, serif;
   height: 100vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0);
@@ -19,8 +21,26 @@
     justify-content: space-around;
     align-items: center;
 
+    @media screen and (max-width: 640px) {
+      justify-content: space-between;
+      padding: 0 2%;
+    }
+
     .logo-continer {
       width: 50%;
+
+      @media screen and (max-width: 640px) {
+        img {
+          transform: scale(0.8);
+        }
+      }
+
+      @media screen and (max-width: 414px) {
+        img {
+          transform: scale(0.6);
+          margin-left: -20%;
+        }
+      }
     }
 
     .social-continer {
@@ -28,28 +48,91 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+
+      .icon-container {
+        height: 50px;
+        width: 50px;
+        background-color: #f7941d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10%;
+        svg {
+          font-size: 2rem;
+        }
+
+        transition: all 0.25s ease-in-out;
+        &:hover {
+          cursor: pointer;
+          background-color: #1e90ff;
+        }
+
+        @media screen and (max-width: 414px) {
+          transform: scale(0.8);
+        }
+      }
+
+      @media screen and (min-width: 1280px) {
+        width: 20%;
+      }
+
+      @media screen and (max-width: 640px) {
+        width: 40%;
+      }
     }
   }
 
   .landing-body {
     background-color: #262626;
-    width: 100%;
+    width: 80%;
     height: 80%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
+    background-image: url(https://media.istockphoto.com/photos/portrait-of-young-friends-outdoors-posing-on-gangway-together-picture-id1147751536?b=1&k=20&m=1147751536&s=170667a&w=0&h=XfHtfpn6Nvh5qlTXqcK_ZAIg6P606bou6q_sJZDDbw0=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
 
-    button {
-      background-color: #f7941d;
-      height: 60px;
-      width: 210px;
-      color: white;
-      font-family: "Times New Roman", Times, serif;
-      font-size: 1.5rem;
-      font-weight: 700;
-      transition: all 0.25s ease-in-out;
-      &:hover {
-        background-color: #1e90ff;
+    @media screen and (max-width: 640px) {
+      background-size: 100% 100%;
+    }
+    .heading-container {
+      margin-top: 20px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      .heading {
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+        text-shadow: 1px 1px black;
+
+        @media screen and (max-width: 640px) {
+          transform: scale(0.8);
+        }
+
+        @media screen and (max-width: 414px) {
+          transform: scale(0.7);
+        }
+      }
+
+      button {
+        margin-top: 10px;
+        background-color: #f7941d;
+        height: 60px;
+        width: 210px;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 700;
+        transition: all 0.25s ease-in-out;
+        &:hover {
+          background-color: #1e90ff;
+        }
       }
     }
   }
