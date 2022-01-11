@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
-import './Landing.scss';
-import { Link } from 'react-router-dom';
-import AOS from 'aos';
-import { Player } from 'video-react';
-import VideoPoster from './video_poster.png';
-import LandingVideo from './landing_video.mp4';
+import "./Landing.scss";
+
+import React, { Component } from "react";
+
+import AOS from "aos";
+import logo from "../../../../generations-logo-trans.png";
 
 class Landing extends Component {
   componentDidMount() {
@@ -21,18 +20,16 @@ class Landing extends Component {
 
   render() {
     return (
-      <div data-aos='fade-down' className='Landing'>
-        <Player
-          playsInline
-          poster={VideoPoster}
-          src={LandingVideo}
-          className='landing-video-player'
-        />
-        {/* <div className='landing-btn-container'> */}
-        {/* <Link to='/jobs' color='blue' className='landing-btn'>
-            EXPLORE ROLES
-          </Link>
-        </div> */}
+      <div data-aos="fade-down" className="Landing">
+        <div className="landing-header">
+          <div className="logo-continer">
+            <img src={logo} alt="logo" />
+          </div>
+          <div className="social-continer">Social Container</div>
+        </div>
+        <div className="landing-body">
+          <button>Learn More</button>
+        </div>
       </div>
     );
   }
