@@ -12,15 +12,13 @@ import React from "react";
 const App = () => {
   return (
     <div className="App">
-      {/* <Nav /> */}
-      <div className="a       +">
+      <div>
         <Switch>
           <Route path="/">
             <HomePage className="App-page" />
           </Route>
         </Switch>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 };

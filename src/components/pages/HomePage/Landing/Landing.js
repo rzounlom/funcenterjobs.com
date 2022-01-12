@@ -52,7 +52,7 @@ class Landing extends Component {
         </div>
         <div className="landing-body">
           <div className="heading-container">
-            <div className="heading">Become a member of a winning team</div>
+            <div className="heading">Join a winning team</div>
             <a href="https://generations-adventureplex.com/jobs/">
               <button>Learn More</button>
             </a>
