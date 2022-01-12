@@ -16,6 +16,10 @@
     justify-content: space-around;
   }
 
+  @media screen and (max-width: 414px) {
+    justify-content: center;
+  }
+
   .landing-header {
     padding: 0 5%;
     background-color: #262626;
@@ -35,6 +39,7 @@
       justify-content: space-between;
       padding: 0 2%;
       height: 10%;
+      margin-top: -10%;
     }
 
     .logo-continer {
@@ -113,8 +118,8 @@
 
     @media screen and (max-width: 414px) {
       width: 90%;
-      height: 70%;
-      margin-top: -20%;
+      height: 75%;
+      margin-top: 10%;
     }
     .heading-container {
       margin-top: 20px;
