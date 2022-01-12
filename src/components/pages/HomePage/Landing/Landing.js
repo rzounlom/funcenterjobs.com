@@ -23,12 +23,11 @@ class Landing extends Component {
     return (
       <div data-aos="fade-down" className="Landing">
         <div className="landing-header">
-          <a
-            className="logo-continer"
-            href="https://generations-adventureplex.com/"
-          >
-            <img src={logo} alt="logo" />
-          </a>
+          <div className="logo-continer">
+            <a href="https://generations-adventureplex.com/">
+              <img src={logo} alt="logo" />
+            </a>
+          </div>
           <div className="social-continer">
             <a
               className="icon-container"
