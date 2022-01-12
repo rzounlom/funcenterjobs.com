@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d41fc9c.chunk.css",
-    "main.js": "/static/js/main.e24986cf.chunk.js",
-    "main.js.map": "/static/js/main.e24986cf.chunk.js.map",
+    "main.css": "/static/css/main.22fa2bf5.chunk.css",
+    "main.js": "/static/js/main.984472fb.chunk.js",
+    "main.js.map": "/static/js/main.984472fb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.507946b1.js",
     "runtime-main.js.map": "/static/js/runtime-main.507946b1.js.map",
     "static/css/2.cde7393f.chunk.css": "/static/css/2.cde7393f.chunk.css",
-    "static/js/2.9b8277c2.chunk.js": "/static/js/2.9b8277c2.chunk.js",
-    "static/js/2.9b8277c2.chunk.js.map": "/static/js/2.9b8277c2.chunk.js.map",
+    "static/js/2.9ff18c5e.chunk.js": "/static/js/2.9ff18c5e.chunk.js",
+    "static/js/2.9ff18c5e.chunk.js.map": "/static/js/2.9ff18c5e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cca0ffc054c844a34111226b8b3468ab.js": "/precache-manifest.cca0ffc054c844a34111226b8b3468ab.js",
+    "precache-manifest.976e9615eea697ce30d52eeb0369d66f.js": "/precache-manifest.976e9615eea697ce30d52eeb0369d66f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.cde7393f.chunk.css.map": "/static/css/2.cde7393f.chunk.css.map",
-    "static/css/main.2d41fc9c.chunk.css.map": "/static/css/main.2d41fc9c.chunk.css.map",
-    "static/js/2.9b8277c2.chunk.js.LICENSE.txt": "/static/js/2.9b8277c2.chunk.js.LICENSE.txt",
-    "static/media/About.scss": "/static/media/people.ded9ad59.jpg",
-    "static/media/landing_video.mp4": "/static/media/landing_video.04f5ff67.mp4",
-    "static/media/video_poster.png": "/static/media/video_poster.d77d1d58.png"
+    "static/css/main.22fa2bf5.chunk.css.map": "/static/css/main.22fa2bf5.chunk.css.map",
+    "static/js/2.9ff18c5e.chunk.js.LICENSE.txt": "/static/js/2.9ff18c5e.chunk.js.LICENSE.txt",
+    "static/media/generations-logo-trans.png": "/static/media/generations-logo-trans.35befb1b.png",
+    "static/media/Landing.scss": "/static/media/hiring.60e01a7c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.507946b1.js",
     "static/css/2.cde7393f.chunk.css",
-    "static/js/2.9b8277c2.chunk.js",
-    "static/css/main.2d41fc9c.chunk.css",
-    "static/js/main.e24986cf.chunk.js"
+    "static/js/2.9ff18c5e.chunk.js",
+    "static/css/main.22fa2bf5.chunk.css",
+    "static/js/main.984472fb.chunk.js"
   ]
 }
